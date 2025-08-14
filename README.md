@@ -42,8 +42,11 @@ OL-ID (write your Ol ID)
 📊 Regression Notebook - [Regression Notebook](https://www.kaggle.com/code/divyans023/regression-notebook) 
 
 🌀 Clustering Notebook  - [Clustering Notebook](https://www.kaggle.com/code/divyans023/unsupervised-notebook)
+
 Streamlit App: [Hosted App Link]
+
 Screenshots
+
 Dashboard Overview
 
 EDA Insights
