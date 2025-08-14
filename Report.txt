@@ -1,0 +1,37 @@
+*Findings from  EDA Analysis*
+
+1.Mental Health Treatment by Age Group
+    Highest treatment seeking is in the 26–35 age group.
+    Very few in the 46+ age groups seek treatment.
+
+2.Impact of Work Interference
+    People who report “Often” or “Sometimes” work interference have a much higher rate of seeking treatment.
+    Those who report “Never” interference rarely seek treatment.
+
+3.Impact of Company Benefits
+    Employees with mental health benefits are more likely to seek treatment.
+    Uncertainty (“Don’t know” about benefits) is linked to lower treatment rates.
+    Lack of benefits corresponds to fewer people seeking help.
+
+
+
+*Findings from Classification Model*
+    The model achieved 61.51% accuracy with balanced precision (0.61) and recall (0.57).
+    It performs slightly better at identifying class 0 than class 1.
+    Misclassifications are fairly even across both classes, suggesting scope for improvement through feature tuning or model optimization.
+
+
+
+
+*Findings from Regression Model*
+    The regression model shows an MAE of 6.17 and RMSE of 8.07, indicating notable prediction errors.
+    A negative R² score (-0.19) suggests the model performs worse than a simple mean-based prediction.
+    This highlights the need for better feature selection or model tuning.
+
+
+
+
+*Findings from Unsupervised Model*
+    The Elbow Method graph shows a sharp drop in inertia from k=1 to k=2, after which the curve flattens significantly.
+    This suggests that 2 clusters is the optimal choice for segmenting the dataset, as adding more clusters yields minimal improvement.
+    The clear elbow at k=2 indicates strong separability between the groups in the data.
